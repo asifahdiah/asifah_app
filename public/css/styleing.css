@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Anuphan', sans-serif;
+}
+
+body{
+  height: 80vh;
+}
+
+.landingPageWrapper header{
+  z-index: 99;
+  background: #023047;
+  border-color: #8ecae6 !important;
+}
+
+.landingPageWrapper header nav ul li a:hover{
+  text-decoration: underline !important;
+}
+
+.landingPageWrapper header .btn{
+  background: #8ecae6;
+  color: #023047;
+}
+
+video{
+  filter: blur(3px);
+}
+
+.landingPageWrapper main,
+.landingPageWrapper .heroWrapper{
+  height: 640px;
+}
+
+.heroTextWrapper{
+  color: #023047;
+}
+
+.about{
+  height: 80vh;
+  background-image: url("");
+  background-size: 150%;
+}
+
+.about .col-4 h1,
+.about .col-4 p{
+  backdrop-filter: blur(2px);
+}
+
+.book{
+  height: 100vh;
+  background: #023047;
+}
+
+.faq{
+  height: 90vh;
+  padding: 130px 0 !important;
+}
+
+footer{
+  height: 50vh;
+  background: #023047;
+}
